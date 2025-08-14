@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir 1</title>
+</head>
+<style>
+    table{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        right: 100%;
+    }
+</style>
+<body>
+    <center>
+       <h1>Pendaftaran Ekstrakurikuler Sekolah</h1> 
+       <hr>
+    </center>
+    <a href="form1.html">Back</a>
+    <fieldset>
+        <legend>Formulir Pendaftaran</legend>
+        <form>
+             <p>Nama Lengkap:</p>
+            <input type="text" name="nama siswa">
+            <p>
+                Alamat:
+            </p>
+            <textarea name="Alamat" id=""></textarea>
+            <p>Tanggal Lahir:</p>
+            <input type="date" name="tanggal lahir">
+            <p>Kelas:</p>
+            <label></label>
+            <select name="Kelas">
+                <option value="Pilih Kelas">Pilih Kelas</option>
+                <option value="X PPLG 1">X PPLG 1</option>
+                <option value="X PPLG 1">X PPLG 2</option>
+                <option value="X PPLG 1">X PPLG 3</option>
+                </select>
+            <p>Jenis Kelamin:</p>
+            <input type="radio" name="Jenis Kelamin" value="Laki-laki"> Laki-laki
+            <input type="radio" name="Jenis Kelamin" value="Perempuan"> Perempuan
+            <P>Ekstrakurikuler yang Dipilih</P>
+              <input type="checkbox" name="checkbox" value="Pramuka"> Pramuka
+              <p>
+                <input type="checkbox" name="checkbox" value=""> Basket
+              </p>
+              <input type="checkbox" name="checkbox" value="Pmr"> Pmr
+              <p>Nomor HP:</p>
+              <input type="number" name="Nomor">
+              <p>Email:</p>
+              <input type="text" name="email">
+              <p>
+              <input type="button" name="submit" value="submit">  
+              <input type="reset" value="reset"> 
+              </p>
+        </form>
+       
+    </fieldset>
+    <h2>Daftar Ekstrakurikuler & Jadwal Latihan</h2>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Ekstrakurikuler</th>
+                <th>Pembina</th>
+                <th>Hari</th>
+                <th>Waktu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Pramuka</td>
+                <td rowspan="2">Bapak Andi</td>
+                <td>Jumat</td>
+                <td>15.00-17.00</td>
+            </tr>
+            <tr>
+                <td>Sabtu</td>
+                <td>08.00-10.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Basket</td>
+                <td>Ibu Rina</td>
+                <td>Sabtu</td>
+                <td>08.00-10.00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td rowspan="2">Paskibra</td>
+                <td rowspan="2">Bapak Joko</td>
+                <td>Rabu</td>
+                <td>15.30-17.30</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>14.00-16.00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
